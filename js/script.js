@@ -10,6 +10,19 @@
         },
     ];
 
+    const addNewTask = (ewTaskContent) => {
+        tasks.push({
+            content: newTaskContent,
+        });
+
+        render();
+    };
+
+    const removeTask = (taskIndex) => {
+        tasks.splice(taskIndex, 1);
+        render();
+    };
+
     const render = () => {
         let htmlString = "";
 
@@ -18,20 +31,22 @@
         <li
         ${task.done ? " style=\"text-decoration: line-through\"" : ""}>
 
+        <button class="js-remove">usuń</button>
+
         ${task.content}
         </li>
         `;
         }
 
         document.querySelector(".js-tasks").innerHTML = htmlString;
-    };
 
-    const addNewTask = (ewTaskContent) => {
-        tasks.push({
-            content: newTaskContent,
+        const removeButtons = document.querySelectorAll(".js-remove");
+
+        removeButtons.forEach((removeButton, index) => {
+            removeButton.addEventListener("click", () => {
+                removeTask(index);
+            });
         });
-
-        render();
     };
 
     const onFormSubmit = (event) => {
