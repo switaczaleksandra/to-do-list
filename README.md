@@ -2,7 +2,7 @@
 ![$](./images/to-do%20list.jpg)
 
 ## You can add a new task:
-- write task"s name here:
+- write task's name here:
 ![$](./images/add%20new%20task.jpg)
 - click button "Dodaj zadanie"
 - You will see new task in "Lista zadań" 
