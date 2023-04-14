@@ -11,22 +11,25 @@
     }
 }
 
-.form_newTask {
-    border: 1px #607D8B;
-    height: 35px;
-    width: 100%;
+.form__input {
+    padding: 10px;
+    border: 1px solid #ddd;
 }
 
 .form_button {
-    background-color: teal;
+    padding: 10px;
+    background-color: hsl(180, 100%, 25%);
     color: white;
     border: none;
-    transition: 1s;
-    cursor: pointer;
-
+    transition: 0.3s;
 }
 
 .form_button:hover {
-    background: rgba(0, 128, 128, 0.952);
-    transform: scale(1.5);
+    background: hsl(180, 100%, 30%);
+    transform: scale(1.1);
+}
+
+.form_button:active {
+    background: hsl(180, 100%, 35%);
+    transform: scale(1.1);
 }

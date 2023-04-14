@@ -1,15 +1,14 @@
 .buttons {
-    margin: auto 0;
     display: flex;
     flex-wrap: wrap;
 }
 
 .buttons__button {
     background-color: transparent;
-    color: #217b75;
+    color: teal;
     border: none;
     transition: color 0.3s;
-    cursor: pointer;
+    margin: 0 0 0 20px;
 }
 
 @media (max-width: 767px) {
@@ -20,14 +19,10 @@
 }
 
 .buttons__button:hover {
-    color: #4daca6;
+    color: hsl(180, 100%, 35%);
 }
 
-.buttons__button:active {
-    color: #53d4cb;
-}
 
 .buttons__button:disabled {
     color: #ccc;
-    cursor: : not-allowed;
 }
