@@ -4,8 +4,8 @@
 }
 
 .buttons__button {
-    background-color: transparent;
-    color: teal;
+    background: transparent;
+    color: hsl(180, 100%, 25%);
     border: none;
     transition: color 0.3s;
     margin: 0 0 0 20px;
@@ -25,4 +25,4 @@
 
 .buttons__button:disabled {
     color: #ccc;
-}
+} /* przycisk wyłączony */

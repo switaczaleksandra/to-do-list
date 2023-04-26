@@ -15,20 +15,19 @@
 
 .tasks__item--hidden {
     display: none;
-}
+} /* element jest ukrywany */
 
 .tasks__content--done {
     text-decoration: line-through;
 }
 
 .tasks__button {
-    color: #ffffff;
+    color: white;
     border: none;
     width: 30px;
     height: 30px;
     padding: 0;
-    transition: background-color 0.3s;
-    cursor: pointer;
+    transition: background 0.3s;
 }
 
 .tasks__button--toggleDone {

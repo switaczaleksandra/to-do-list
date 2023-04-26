@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="pl">
 
 <head>
@@ -21,29 +20,32 @@
 
 <body class="body">
     <main class="container">
-    <header>
-        <h1 class="section__tittle">Lista zadań</h1>
-    </header>
-    <section class="section">
-        <h2 class="section__header">Dodaj nowe zadanie</h2>
-        <div class="section_body">
-            <form class="form js-form">
-                <input class="form_newTask js-newTask" placeholder="Wpisz do listy">
-                <button class="form_button">Dodaj zadanie</button>
-            </form>
-        </div>
-    </section>
-    <section class="section">
-        <h3 class="section__header">Lista zadań</h3>
-        <div class="buttons js-buttons">
-            <button class="buttons__buton js-toggleHideDoneTasks">Ukryj ukończone</button>
-        <button class="buttons__button js-markAllDone">Ukończ wszystkie</button>
-        </div>
-        <div class="section__body">
-            <ul class="tasks js-tasks"></ul>
-        </div>
-    </section>
-</main>
+        <header>
+            <h1>Lista zadań</h1>
+        </header>
+
+        <section class="section">
+            <h2 class="section__header">Dodaj nowe zadanie</h2>
+            <div class="section__body">
+                <form class="form js-form">
+                    <input class="form__input js-newTask" placeholder="Co jest do zrobienia?">
+                    <button class="form__button">Dodaj zadanie</button>
+                </form>
+            </div>
+        </section>
+        <section class="section">
+            <header class="section__header">
+                <h3 class="section__title">Lista zadań</h3>
+                <div class="buttons js-buttons">
+                    <button class="buttons__buton js-toggleHideDoneTasks">Ukryj ukończone</button>
+                    <button class="buttons__button js-markAllDone">Ukończ wszystkie</button>
+                </div>
+            </header>
+            <div class="section__body">
+                <ul class="tasks js-tasks"></ul>
+            </div>
+        </section>
+    </main>
 </body>
 
 </html>
