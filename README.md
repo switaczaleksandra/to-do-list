@@ -1,15 +1,17 @@
 # To-do list
-![$](./images/to-do%20list.jpg)
+
 
 ## You can add a new task:
 - write task's name here:
-![$](./images/add%20new%20task.jpg)
 - click button "Dodaj zadanie"
 - You will see new task in "Lista zadań" 
-![$](./images/list.jpg)
 - if task is done click in the green button
-![$](./images/greenbuttom.jpg)
 - if You want dalate task click in red button
+- You can hide compeled tasks by clicking on the button "Ukryj ukończone" 
+- You can see all compeled tasks by clicking on the button "Pokaż ukończone"
+- You can fiish all tasks by clicking on the button "Ukończ wszystkie"
+- 
+![$](./images/Animation.gif)
 
 ## Demo: https://switaczaleksandra.github.io/to-do-list/
 
