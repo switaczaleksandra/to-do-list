@@ -15,7 +15,7 @@
 
 .tasks__item--hidden {
     display: none;
-} /* element jest ukrywany */
+} 
 
 .tasks__content--done {
     text-decoration: line-through;
